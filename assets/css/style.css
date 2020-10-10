@@ -1,0 +1,105 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #f27798;  /* 242, 119, 152 */
+    --secondary-color: #1a7a5a; /* 26, 122, 90 */
+    --tertiary-color: #50b5ad; /* 80, 181, 173 */
+    --background-color: #e8e3e5; /* 232, 227, 229 */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--secondary-color);
+    background-color: var(--background-color)
+}
+
+.section-title {
+    font-size: 40px;
+    color: var(--primary-color);
+    border-right: 3px solid;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: left;
+    margin: 20px 5px 20px 20px;
+    width: 20%;
+    border-color: var(--tertiary-color);
+    text-align: center;
+}
+
+/* Header, Navigation, and Hero Style */
+
+header {
+    padding: 20px 35px;
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+    background-color: var(--background-color);
+    background-size: cover;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 50px;
+    color: var(--tertiary-color);
+}
+
+header a {
+    text-decoration: underline;
+    font-weight: bold;
+    color: var(--tertiary-color);
+    font-size: 20px;
+}
+
+header nav {
+    margin: 7px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+/* Hero section */
+
+.hero {
+    height: 500px;
+    padding: 10px 10px 10px 10px;
+    background-image: url(../images/flamingos-banner.png);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-position: center;
+    background-color: var(--tertiary-color);
+    color: var(--background-color);
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+
+
+
