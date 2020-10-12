@@ -8,51 +8,104 @@
     </head>
     <body>
         <!--Navigation-->
-        <nav> 
+        <header>
             <h1> Jennifer Fadare</h1>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-                <li>
-                    <a href="#resume">Resume</a>
-                </li>
-              </ul>    
-        </nav>
+            <nav> 
+                <ul>
+                    <li>
+                        <a href="#about-me">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#my-work">My Work</a>
+                    </li>
+                    <li>
+                        <a href="#contact-me">Contact Me</a>
+                    </li>
+                    <li>
+                        <a href="#resume">Resume</a>
+                    </li>
+                </ul>    
+             </nav>
+        </header>
+
         <!--Hero section-->
-        <section>
-            <h1>Subtitle</h1>
+        <section class="hero">
+            <div>
+                <p>Welcome!</p>
+            </div>
         </section>
 
         <!--About Me Section-->
         <section id="about-me">
-            <h2>About me</h2>
+            <div class="flex-row">
+                <h2 class="section-title"> About Me</h2>
+           
+            <article class="bio-container">
+                <img src="assets/images/jennifer-fadare.jpeg">
+                <div class="bio-content">
+                    <p> I'm originally from Gonzales, LA and live in Killeen, TX thanks to 
+                        the United States Army.  I attend the United States Military Academy 
+                        from 2004-2008 and graduated with a B.S. in Information Technology. I 
+                        I commmissioned into the Army as second leiutenant in the Signal Corps 
+                        responsible for managing tactical communications equipment and overseeing 
+                        an IT helpdesk that served about 400 customers. After 11 years on active 
+                        I transitioned into the US Army Reserves and currently serve as a  Communications 
+                        Officer for an Aviation unit.</p> <br>
+                    <p> I'm on my fifth year of marraige to my husband, Sam, and I have two kids (Jeaux Jeaux-3 and Sammy-1).</p><br>
+                    <p> I'm also an active member of Alpha Kappa Alpha Sorority, Inc.</p>
+                </div>
+            </article>
+        </div>
         </section>
         
         <!--Work Section-->
-        <section id="work"> 
-            <h2>My Work</h2>
+        <section id="my-work"> 
+            <div class="flex-row">
+                <h2 class="section-title">My Work</h2>
+                <div class="work-grid-container">
+                        <div class="work-grid-item box1">
+                            <a href=" https://jenniferfadare.github.io/run-buddy/">
+                                <h4>Run-Buddy</h4>
+                                <h5>HTML/CSS</h5>
+                            </a>
+                        </div>
+                        <div class="work-grid-item box2">
+                            <a href="https://jenniferfadare.github.io/horiseon/">
+                                <h4>Horeison</h4>
+                                <h5>HTML/CSS</h5>
+                            </a>
+                        </div>
+                        <div class="work-grid-item empty">
+                            <!--<h4>Three</h4>-->
+                        </div>
+                        <div class="work-grid-item empty">
+                           <!-- <h4>Four</h4>-->
+                        </div>
+                        <div class="work-grid-item empty">
+                            <!--<h4>Five</h4>-->
+                        </div>
+                </div>
+            </div>
         </section>
 
         <!--Contact Me Section-->
         <section id="contact-me"> 
-            <h2>Contact Me</h2>
-        </section>
-
-        <!--Reseme Section-->
-        <section id="resume">
-            <h2>My resume</h2>
+            <div class="flex-row">
+                <h2 class="section-title">Contact Me</h2>
+                <div class="contact-info">
+                    <p> 225.978.1912 </p>
+                    <p ><a href="jen.glove08@gmail.com"></a> jen.glove08@gmail.com </p>
+                    <p> <a href="https://twitter.com/JGlo225"></a>Twitter</p>
+                    <p> <a href="github.com/JenniferFadare"></a>Github</p>
+                    <p> <a href="https://open.spotify.com/playlist/3PLlZIRl8pQhaBks8dDRcF?si=ZaNy8Ci7QoOCmNIO0s6KbQ"></a>Spotify </p>  
+                </div>
+            </div>
         </section>
 
         <!--Footer-->
          <footer>
-            <h2>Made with love</h2>
+            <p>Last updated October 10, 2020<p>
         </footer>
  
     </body>
+</html>
