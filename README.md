@@ -15,9 +15,11 @@ https://jenniferfadare.github.io/JenniferFadarePortfolio
 
 ## Website Mock Up
 
-![Image of portfolio hero] (/assets/images/Portfolio-hero-screenshot.png)
+![Image of portfolio hero] 
+(./assets/images/Portfolio-hero-screenshot.png)
 
-![Image of portfolio body] (/assets/images/Portfolio-body-screenshot.png)
+![Image of portfolio body] 
+(./assets/images/Portfolio-body-screenshot.png)
 
 
 ## Thought Process for designing this website
