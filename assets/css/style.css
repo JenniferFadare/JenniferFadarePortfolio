@@ -130,11 +130,14 @@ header nav ul li a {
     grid-gap: 10px;
     width: 75%;
     font-size: 1.2rem;
-    color: var(--secondary-color);
-    
+    color: var(--secondary-color);   
 }
 
-.work-grid-item {
+.work-grid-container a {
+    text-decoration: none;
+}
+
+.work-grid-item  {
     border: solid var(--tertiary-color);
     display: flex;
     flex-direction: column;
@@ -154,7 +157,6 @@ header nav ul li a {
     color: var(--background-color);
     width: 150px;
     margin: .5;
-     
 }
 
 .work-grid-item h5  {
