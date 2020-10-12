@@ -16,10 +16,10 @@ https://jenniferfadare.github.io/JenniferFadarePortfolio
 ## Website Mock Up
 
 ![Image of portfolio-hero-screenshot]
-(https://jenniferfadare.github.io/assets/images/portfolio-hero-screenshot.png)
+(assets/images/Portfolio-hero-screenshot.png)
 
 ![Image of portfolio-body-screenshot]
-(https://jenniferfadare.github.io/assets/images/portfolio-body-screenshot.png)
+(assets/images/Portfolio-body-screenshot.png)
 
 
 ## Thought Process for designing this website
